@@ -1,0 +1,56 @@
+/* Reset CSS */
+
+/* Box-sizing border-box por defecto */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Eliminar márgenes y rellenos predeterminados */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Eliminar estilos de lista */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Ajustar tamaños de fuente */
+html {
+  font-size: 62.5%;
+}
+
+/* Normalize line-height */
+body {
+  line-height: 1.6;
+}
+
+/* Evitar que las imágenes se desborden de su contenedor */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevenir selección de texto */
+body {
+  user-select: none;
+}
+
+/* Ajustar estilos de hipervínculos */
+a {
+  text-decoration: none;
+  color: inherit;
+}
