@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
   </head>
@@ -11,33 +12,37 @@
 
   <header id="header">
 
-    <div class="filmArte">
+    <div class="text-white filmArte">
       <h1><span id="titleFilm">Film</span><span id="titleArt">Arte</span></h1>
       <img src="img/popcorn.png" alt="popcorn">  
     </div>
 
     <div class="navbar">
-      <a href="index.html">Inicio</a> 
-      <a href="./pages/about.html">Sobre nosotros</a>
-      <a href="">Hazte socio</a>  
+      <a class="text-white text-decoration-none" href="index.html">Inicio</a> 
+      <a class="text-white text-decoration-none" href="./pages/about.html">Sobre nosotros</a>
+      <a class="text-white text-decoration-none" href="">Hazte socio</a>  
     </div>
   
   </header>
 
   <main>
-      <div id="cardContainer">
-        
-        <h2 class="title">CATALOGO DE PELICULAS:</h2>
-        <div id="card">
+    
+    <div class="cardContainer text-center">
+      <h2 class="text-white title">CATALOGO DE PELICULAS:</h2>
+      <div class="container">
+        <div id="card" class="row ">
+              
         </div>
-      
       </div>
+    </div>
       
  
-
   </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-n1hcM+FWrbsr5jSDcf7cUKL6ZPWqQGks/8lOZB0YYU3s9TL+2Vglo/a1Dd5nrNXN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-+dVoSscb+WVqHJUzFq2b8xWtLlBU+sqQ8r7Fdt6v25Bjvh5Uaq0pJ/vB5Aqb4zYd" crossorigin="anonymous"></script>
     <script src="./scripts/index.js"></script>
+
 
   </body>
 </html>

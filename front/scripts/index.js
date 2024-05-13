@@ -1,5 +1,5 @@
 const container = document.getElementById('card');
-const URL = 'https://students-api.up.railway.app/movies';
+const URL = 'https://api.1rodemayo.com/movies';
 
 $.get(URL, (data) => {
   renderCards(data);
@@ -21,7 +21,7 @@ class Film {
 
     generateCard() {
         return `ls
-            <div class="info">
+            <div class="col info">
               <a class= "titleCard" href=" "> ${this.title} (${this.year})</a>
               <p><strong class="director">Director:</strong> ${this.director}</p>
               <p><strong>Duración:</strong> ${this.duration}</p>
